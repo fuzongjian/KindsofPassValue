@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		505EDB301CB74C3B00A3AFC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 505EDB2F1CB74C3B00A3AFC4 /* main.m */; };
+		505EDB331CB74C3B00A3AFC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 505EDB321CB74C3B00A3AFC4 /* AppDelegate.m */; };
+		505EDB361CB74C3B00A3AFC4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 505EDB351CB74C3B00A3AFC4 /* ViewController.m */; };
+		505EDB391CB74C3B00A3AFC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 505EDB371CB74C3B00A3AFC4 /* Main.storyboard */; };
+		505EDB3B1CB74C3B00A3AFC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 505EDB3A1CB74C3B00A3AFC4 /* Assets.xcassets */; };
+		505EDB3E1CB74C3B00A3AFC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 505EDB3C1CB74C3B00A3AFC4 /* LaunchScreen.storyboard */; };
+		505EDB491CB74C3C00A3AFC4 /* KindsofPassValueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 505EDB481CB74C3C00A3AFC4 /* KindsofPassValueTests.m */; };
+		505EDB541CB74C3C00A3AFC4 /* KindsofPassValueUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 505EDB531CB74C3C00A3AFC4 /* KindsofPassValueUITests.m */; };
+		505EDB631CB74DBA00A3AFC4 /* PassValueController.m in Sources */ = {isa = PBXBuildFile; fileRef = 505EDB621CB74DBA00A3AFC4 /* PassValueController.m */; };
+		505EDB661CB75E6E00A3AFC4 /* SingletonManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 505EDB651CB75E6E00A3AFC4 /* SingletonManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		505EDB451CB74C3C00A3AFC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 505EDB231CB74C3B00A3AFC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 505EDB2A1CB74C3B00A3AFC4;
+			remoteInfo = KindsofPassValue;
+		};
+		505EDB501CB74C3C00A3AFC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 505EDB231CB74C3B00A3AFC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 505EDB2A1CB74C3B00A3AFC4;
+			remoteInfo = KindsofPassValue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		505EDB2B1CB74C3B00A3AFC4 /* KindsofPassValue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KindsofPassValue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		505EDB2F1CB74C3B00A3AFC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		505EDB311CB74C3B00A3AFC4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		505EDB321CB74C3B00A3AFC4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		505EDB341CB74C3B00A3AFC4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		505EDB351CB74C3B00A3AFC4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		505EDB381CB74C3B00A3AFC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		505EDB3A1CB74C3B00A3AFC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		505EDB3D1CB74C3B00A3AFC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		505EDB3F1CB74C3B00A3AFC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		505EDB441CB74C3C00A3AFC4 /* KindsofPassValueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KindsofPassValueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		505EDB481CB74C3C00A3AFC4 /* KindsofPassValueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KindsofPassValueTests.m; sourceTree = "<group>"; };
+		505EDB4A1CB74C3C00A3AFC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		505EDB4F1CB74C3C00A3AFC4 /* KindsofPassValueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KindsofPassValueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		505EDB531CB74C3C00A3AFC4 /* KindsofPassValueUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KindsofPassValueUITests.m; sourceTree = "<group>"; };
+		505EDB551CB74C3C00A3AFC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		505EDB611CB74DBA00A3AFC4 /* PassValueController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassValueController.h; sourceTree = "<group>"; };
+		505EDB621CB74DBA00A3AFC4 /* PassValueController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassValueController.m; sourceTree = "<group>"; };
+		505EDB641CB75E6E00A3AFC4 /* SingletonManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingletonManager.h; sourceTree = "<group>"; };
+		505EDB651CB75E6E00A3AFC4 /* SingletonManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingletonManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		505EDB281CB74C3B00A3AFC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		505EDB411CB74C3C00A3AFC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		505EDB4C1CB74C3C00A3AFC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		505EDB221CB74C3B00A3AFC4 = {
+			isa = PBXGroup;
+			children = (
+				505EDB2D1CB74C3B00A3AFC4 /* KindsofPassValue */,
+				505EDB471CB74C3C00A3AFC4 /* KindsofPassValueTests */,
+				505EDB521CB74C3C00A3AFC4 /* KindsofPassValueUITests */,
+				505EDB2C1CB74C3B00A3AFC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		505EDB2C1CB74C3B00A3AFC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				505EDB2B1CB74C3B00A3AFC4 /* KindsofPassValue.app */,
+				505EDB441CB74C3C00A3AFC4 /* KindsofPassValueTests.xctest */,
+				505EDB4F1CB74C3C00A3AFC4 /* KindsofPassValueUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		505EDB2D1CB74C3B00A3AFC4 /* KindsofPassValue */ = {
+			isa = PBXGroup;
+			children = (
+				505EDB311CB74C3B00A3AFC4 /* AppDelegate.h */,
+				505EDB321CB74C3B00A3AFC4 /* AppDelegate.m */,
+				505EDB341CB74C3B00A3AFC4 /* ViewController.h */,
+				505EDB351CB74C3B00A3AFC4 /* ViewController.m */,
+				505EDB611CB74DBA00A3AFC4 /* PassValueController.h */,
+				505EDB621CB74DBA00A3AFC4 /* PassValueController.m */,
+				505EDB641CB75E6E00A3AFC4 /* SingletonManager.h */,
+				505EDB651CB75E6E00A3AFC4 /* SingletonManager.m */,
+				505EDB371CB74C3B00A3AFC4 /* Main.storyboard */,
+				505EDB3A1CB74C3B00A3AFC4 /* Assets.xcassets */,
+				505EDB3C1CB74C3B00A3AFC4 /* LaunchScreen.storyboard */,
+				505EDB3F1CB74C3B00A3AFC4 /* Info.plist */,
+				505EDB2E1CB74C3B00A3AFC4 /* Supporting Files */,
+			);
+			path = KindsofPassValue;
+			sourceTree = "<group>";
+		};
+		505EDB2E1CB74C3B00A3AFC4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				505EDB2F1CB74C3B00A3AFC4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		505EDB471CB74C3C00A3AFC4 /* KindsofPassValueTests */ = {
+			isa = PBXGroup;
+			children = (
+				505EDB481CB74C3C00A3AFC4 /* KindsofPassValueTests.m */,
+				505EDB4A1CB74C3C00A3AFC4 /* Info.plist */,
+			);
+			path = KindsofPassValueTests;
+			sourceTree = "<group>";
+		};
+		505EDB521CB74C3C00A3AFC4 /* KindsofPassValueUITests */ = {
+			isa = PBXGroup;
+			children = (
+				505EDB531CB74C3C00A3AFC4 /* KindsofPassValueUITests.m */,
+				505EDB551CB74C3C00A3AFC4 /* Info.plist */,
+			);
+			path = KindsofPassValueUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		505EDB2A1CB74C3B00A3AFC4 /* KindsofPassValue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 505EDB581CB74C3C00A3AFC4 /* Build configuration list for PBXNativeTarget "KindsofPassValue" */;
+			buildPhases = (
+				505EDB271CB74C3B00A3AFC4 /* Sources */,
+				505EDB281CB74C3B00A3AFC4 /* Frameworks */,
+				505EDB291CB74C3B00A3AFC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KindsofPassValue;
+			productName = KindsofPassValue;
+			productReference = 505EDB2B1CB74C3B00A3AFC4 /* KindsofPassValue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		505EDB431CB74C3C00A3AFC4 /* KindsofPassValueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 505EDB5B1CB74C3C00A3AFC4 /* Build configuration list for PBXNativeTarget "KindsofPassValueTests" */;
+			buildPhases = (
+				505EDB401CB74C3C00A3AFC4 /* Sources */,
+				505EDB411CB74C3C00A3AFC4 /* Frameworks */,
+				505EDB421CB74C3C00A3AFC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				505EDB461CB74C3C00A3AFC4 /* PBXTargetDependency */,
+			);
+			name = KindsofPassValueTests;
+			productName = KindsofPassValueTests;
+			productReference = 505EDB441CB74C3C00A3AFC4 /* KindsofPassValueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		505EDB4E1CB74C3C00A3AFC4 /* KindsofPassValueUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 505EDB5E1CB74C3C00A3AFC4 /* Build configuration list for PBXNativeTarget "KindsofPassValueUITests" */;
+			buildPhases = (
+				505EDB4B1CB74C3C00A3AFC4 /* Sources */,
+				505EDB4C1CB74C3C00A3AFC4 /* Frameworks */,
+				505EDB4D1CB74C3C00A3AFC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				505EDB511CB74C3C00A3AFC4 /* PBXTargetDependency */,
+			);
+			name = KindsofPassValueUITests;
+			productName = KindsofPassValueUITests;
+			productReference = 505EDB4F1CB74C3C00A3AFC4 /* KindsofPassValueUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		505EDB231CB74C3B00A3AFC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = xingbida;
+				TargetAttributes = {
+					505EDB2A1CB74C3B00A3AFC4 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					505EDB431CB74C3C00A3AFC4 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 505EDB2A1CB74C3B00A3AFC4;
+					};
+					505EDB4E1CB74C3C00A3AFC4 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 505EDB2A1CB74C3B00A3AFC4;
+					};
+				};
+			};
+			buildConfigurationList = 505EDB261CB74C3B00A3AFC4 /* Build configuration list for PBXProject "KindsofPassValue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 505EDB221CB74C3B00A3AFC4;
+			productRefGroup = 505EDB2C1CB74C3B00A3AFC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				505EDB2A1CB74C3B00A3AFC4 /* KindsofPassValue */,
+				505EDB431CB74C3C00A3AFC4 /* KindsofPassValueTests */,
+				505EDB4E1CB74C3C00A3AFC4 /* KindsofPassValueUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		505EDB291CB74C3B00A3AFC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				505EDB3E1CB74C3B00A3AFC4 /* LaunchScreen.storyboard in Resources */,
+				505EDB3B1CB74C3B00A3AFC4 /* Assets.xcassets in Resources */,
+				505EDB391CB74C3B00A3AFC4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		505EDB421CB74C3C00A3AFC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		505EDB4D1CB74C3C00A3AFC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		505EDB271CB74C3B00A3AFC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				505EDB661CB75E6E00A3AFC4 /* SingletonManager.m in Sources */,
+				505EDB631CB74DBA00A3AFC4 /* PassValueController.m in Sources */,
+				505EDB361CB74C3B00A3AFC4 /* ViewController.m in Sources */,
+				505EDB331CB74C3B00A3AFC4 /* AppDelegate.m in Sources */,
+				505EDB301CB74C3B00A3AFC4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		505EDB401CB74C3C00A3AFC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				505EDB491CB74C3C00A3AFC4 /* KindsofPassValueTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		505EDB4B1CB74C3C00A3AFC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				505EDB541CB74C3C00A3AFC4 /* KindsofPassValueUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		505EDB461CB74C3C00A3AFC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 505EDB2A1CB74C3B00A3AFC4 /* KindsofPassValue */;
+			targetProxy = 505EDB451CB74C3C00A3AFC4 /* PBXContainerItemProxy */;
+		};
+		505EDB511CB74C3C00A3AFC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 505EDB2A1CB74C3B00A3AFC4 /* KindsofPassValue */;
+			targetProxy = 505EDB501CB74C3C00A3AFC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		505EDB371CB74C3B00A3AFC4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				505EDB381CB74C3B00A3AFC4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		505EDB3C1CB74C3B00A3AFC4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				505EDB3D1CB74C3B00A3AFC4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		505EDB561CB74C3C00A3AFC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		505EDB571CB74C3C00A3AFC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		505EDB591CB74C3C00A3AFC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KindsofPassValue/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xingbida.KindsofPassValue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		505EDB5A1CB74C3C00A3AFC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KindsofPassValue/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xingbida.KindsofPassValue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		505EDB5C1CB74C3C00A3AFC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KindsofPassValueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xingbida.KindsofPassValueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KindsofPassValue.app/KindsofPassValue";
+			};
+			name = Debug;
+		};
+		505EDB5D1CB74C3C00A3AFC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KindsofPassValueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xingbida.KindsofPassValueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KindsofPassValue.app/KindsofPassValue";
+			};
+			name = Release;
+		};
+		505EDB5F1CB74C3C00A3AFC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KindsofPassValueUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xingbida.KindsofPassValueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KindsofPassValue;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		505EDB601CB74C3C00A3AFC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KindsofPassValueUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xingbida.KindsofPassValueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KindsofPassValue;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		505EDB261CB74C3B00A3AFC4 /* Build configuration list for PBXProject "KindsofPassValue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				505EDB561CB74C3C00A3AFC4 /* Debug */,
+				505EDB571CB74C3C00A3AFC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		505EDB581CB74C3C00A3AFC4 /* Build configuration list for PBXNativeTarget "KindsofPassValue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				505EDB591CB74C3C00A3AFC4 /* Debug */,
+				505EDB5A1CB74C3C00A3AFC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		505EDB5B1CB74C3C00A3AFC4 /* Build configuration list for PBXNativeTarget "KindsofPassValueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				505EDB5C1CB74C3C00A3AFC4 /* Debug */,
+				505EDB5D1CB74C3C00A3AFC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		505EDB5E1CB74C3C00A3AFC4 /* Build configuration list for PBXNativeTarget "KindsofPassValueUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				505EDB5F1CB74C3C00A3AFC4 /* Debug */,
+				505EDB601CB74C3C00A3AFC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 505EDB231CB74C3B00A3AFC4 /* Project object */;
+}
